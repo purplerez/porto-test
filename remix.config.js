@@ -1,6 +1,6 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
-    serverBuildTarget: "vercel", // Target untuk Vercel
+    serverBuildTarget: "vercel", // Pastikan ini adalah 'vercel'
     future: {
       v3_fetcherPersist: true,
       v3_lazyRouteDiscovery: true,
@@ -9,3 +9,4 @@ module.exports = {
       v3_throwAbortReason: true,
     },
   };
+  
